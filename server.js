@@ -1,12 +1,18 @@
 const app = require('express')()
 const bodyParser = require('body-parser')
 const logger = require('morgan')
+// const readline = require('readline-sync')
 
 const port = process.env.PORT || 3030
 
-app.use(logger('dev'))         
-app.use(bodyParser.json())    
-app.use(bodyParser.urlencoded({extended: true}))
+// app.use(logger('dev'))         
+// app.use(bodyParser.json())    
+// app.use(bodyParser.urlencoded({extended: true}))
+// const readline = require('readline').createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+//   })
+
 
 app.get('*', (req, res) => {
   res.send('CON This is a Game prepaid USSD App')
@@ -96,11 +102,11 @@ app.post('*', (req, res) => {
     // This is a terminal request. Note how we start the response with END
     // let response = `END Your account number is ${accountNumber}`
 
-    var readline = require('readline-sync');
+    const readline = require('readline-sync');
 
-    var name = readline.question("What is your name?");
+    const name = readline.question("What is your name?");
 
-    console.log("Hi " + name + ", nice to meet you.");
+    res.send("Hi " + name + ", nice to meet you.");
 
     // let response = `CON MoMo Pay, Give your Phone number`
     // res.send(response)
