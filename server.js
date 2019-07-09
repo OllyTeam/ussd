@@ -96,11 +96,15 @@ app.post('*', (req, res) => {
     // This is a terminal request. Note how we start the response with END
     // let response = `END Your account number is ${accountNumber}`
 
-    let response = `CON MoMo Pay, Give your Phone number
-    1. Confirm paying with MoMo
-    2. BAck
-   `
-    res.send(response)
+    var readline = require('readline-sync');
+
+    var name = readline.question("What is your name?");
+
+    console.log("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    // res.send(response)
+    // const phone = req.body.phone;
   }
   else if (text == '1*1*1') {
     // Business logic for first level response
