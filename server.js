@@ -104,7 +104,7 @@ app.post('*', (req, res) => {
 
     const readline = require('readline-sync');
 
-    const name = readline.question("What is your name?");
+    let name = readline.question("What is your name?");
 
     res.send("Hi " + name + ", nice to meet you.");
 
