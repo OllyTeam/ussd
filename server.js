@@ -98,18 +98,18 @@ app.post('*', (req, res) => {
   }
   else if (text == '1*1*1') {
     // Business logic for first level response
-    // let accountNumber = 'ACC1001'
+    let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    // let response = `END Your account number is ${accountNumber}`
+    let response = `END Your account number is ${accountNumber}`
 
-    const readline = require('readline-sync');
+    // const readline = require('readline-sync');
 
-    let name = readline.question("What is your name?");
+    // let name = readline.question("What is your name?");
 
-    res.send("Hi " + name + ", nice to meet you.");
+    // res.send("Hi " + name + ", nice to meet you.");
 
     // let response = `CON MoMo Pay, Give your Phone number`
-    // res.send(response)
+    res.send(response)
     // const phone = req.body.phone;
   }
   else if (text == '1*1*1') {
