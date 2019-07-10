@@ -98,9 +98,10 @@ app.post('*', (req, res) => {
   }
   else if (text == '1*1*1') {
     // Business logic for first level response
-    let accountNumber = 'ACC1001'
+    // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Your account number is ${accountNumber}`
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
 
     // const readline = require('readline-sync');
 
@@ -112,16 +113,49 @@ app.post('*', (req, res) => {
     res.send(response)
     // const phone = req.body.phone;
   }
-  else if (text == '1*1*1') {
+  else if (text == '1*1*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '1*1*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+
+//   FOR CHOICE 2
+
+ else if (text == '2*1') {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
     // let response = `END Your account number is ${accountNumber}`
 
-    let response = `CON MoMo Pay, Give your Password to confirm`
+    let response = `CON Choose the payment you use 
+    
+    1. Mobile Money
+    2. Aitel/Tigo
+    3. Bank`
     res.send(response)
-  }
-  else if (text == '1*1') {
+  } else if (text == '2*2') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    // let response = `END Your account number is ${accountNumber}`
+
+    let response = `CON Choose the payment you use 
+    
+    1. Mobile Money
+    2. Aitel/Tigo
+    3. Bank`
+    res.send(response)
+  } 
+  else if (text == '2*3') {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
@@ -134,7 +168,66 @@ app.post('*', (req, res) => {
     3. Bank`
     res.send(response)
   }
-  else if (text == '1*1') {
+  else if (text == '2*1*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
+
+    // const readline = require('readline-sync');
+
+    // let name = readline.question("What is your name?");
+
+    // res.send("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    res.send(response)
+    // const phone = req.body.phone;
+  }
+  else if (text == '2*1*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '2*1*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+
+//   FOR CHOICE 3
+
+else if (text == '3*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    // let response = `END Your account number is ${accountNumber}`
+
+    let response = `CON Choose the payment you use 
+    
+    1. Mobile Money
+    2. Aitel/Tigo
+    3. Bank`
+    res.send(response)
+  } else if (text == '3*2') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    // let response = `END Your account number is ${accountNumber}`
+
+    let response = `CON Choose the payment you use 
+    
+    1. Mobile Money
+    2. Aitel/Tigo
+    3. Bank`
+    res.send(response)
+  } 
+  else if (text == '3*3') {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
@@ -147,6 +240,38 @@ app.post('*', (req, res) => {
     3. Bank`
     res.send(response)
   }
+  else if (text == '3*1*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
+
+    // const readline = require('readline-sync');
+
+    // let name = readline.question("What is your name?");
+
+    // res.send("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    res.send(response)
+    // const phone = req.body.phone;
+  }
+  else if (text == '3*1*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '3*1*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  
   else {
     res.status(400).send('Bad request!')
   }
