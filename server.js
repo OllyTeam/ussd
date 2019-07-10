@@ -128,6 +128,70 @@ app.post('*', (req, res) => {
     res.send(response)
   }
 
+  else if (text == '1*2*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
+
+    // const readline = require('readline-sync');
+
+    // let name = readline.question("What is your name?");
+
+    // res.send("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    res.send(response)
+    // const phone = req.body.phone;
+  }
+  else if (text == '1*2*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '1*2*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+
+
+  else if (text == '1*3*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
+
+    // const readline = require('readline-sync');
+
+    // let name = readline.question("What is your name?");
+
+    // res.send("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    res.send(response)
+    // const phone = req.body.phone;
+  }
+  else if (text == '1*3*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '1*3*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
 //   FOR CHOICE 2
 
  else if (text == '2*1') {
@@ -200,6 +264,70 @@ app.post('*', (req, res) => {
     res.send(response)
   }
 
+  else if (text == '2*2*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
+
+    // const readline = require('readline-sync');
+
+    // let name = readline.question("What is your name?");
+
+    // res.send("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    res.send(response)
+    // const phone = req.body.phone;
+  }
+  else if (text == '2*2*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '2*2*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+
+  else if (text == '2*3*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
+
+    // const readline = require('readline-sync');
+
+    // let name = readline.question("What is your name?");
+
+    // res.send("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    res.send(response)
+    // const phone = req.body.phone;
+  }
+  else if (text == '2*3*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '2*3*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+
 //   FOR CHOICE 3
 
 else if (text == '3*1') {
@@ -265,6 +393,70 @@ else if (text == '3*1') {
     res.send(response)
   }
   else if (text == '3*1*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+
+  else if (text == '3*2*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
+
+    // const readline = require('readline-sync');
+
+    // let name = readline.question("What is your name?");
+
+    // res.send("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    res.send(response)
+    // const phone = req.body.phone;
+  }
+  else if (text == '3*2*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '3*2*3') {
+    let response = `END Dear customer Your BANK payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+
+  else if (text == '3*3*1') {
+    // Business logic for first level response
+    // let accountNumber = 'ACC1001'
+    // This is a terminal request. Note how we start the response with END
+    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
+    THANKS`
+
+    // const readline = require('readline-sync');
+
+    // let name = readline.question("What is your name?");
+
+    // res.send("Hi " + name + ", nice to meet you.");
+
+    // let response = `CON MoMo Pay, Give your Phone number`
+    res.send(response)
+    // const phone = req.body.phone;
+  }
+  else if (text == '3*3*2') {
+    let response = `END Dear customer Your aitel/tigo cash payment is being processed
+
+    THANKS`
+
+    res.send(response)
+  }
+  else if (text == '3*3*3') {
     let response = `END Dear customer Your BANK payment is being processed
 
     THANKS`
