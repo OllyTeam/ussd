@@ -100,8 +100,7 @@ app.post('*', (req, res) => {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -114,16 +113,12 @@ app.post('*', (req, res) => {
     // const phone = req.body.phone;
   }
   else if (text == '1*1*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '1*1*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
@@ -132,8 +127,7 @@ app.post('*', (req, res) => {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -146,16 +140,12 @@ app.post('*', (req, res) => {
     // const phone = req.body.phone;
   }
   else if (text == '1*2*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '1*2*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
@@ -165,8 +155,7 @@ app.post('*', (req, res) => {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -179,16 +168,12 @@ app.post('*', (req, res) => {
     // const phone = req.body.phone;
   }
   else if (text == '1*3*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '1*3*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
@@ -236,8 +221,7 @@ app.post('*', (req, res) => {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -250,16 +234,12 @@ app.post('*', (req, res) => {
     // const phone = req.body.phone;
   }
   else if (text == '2*1*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '2*1*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
@@ -268,8 +248,7 @@ app.post('*', (req, res) => {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -282,16 +261,12 @@ app.post('*', (req, res) => {
     // const phone = req.body.phone;
   }
   else if (text == '2*2*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '2*2*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
@@ -300,8 +275,7 @@ app.post('*', (req, res) => {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -314,16 +288,12 @@ app.post('*', (req, res) => {
     // const phone = req.body.phone;
   }
   else if (text == '2*3*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '2*3*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
@@ -372,8 +342,7 @@ else if (text == '3*1') {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -386,16 +355,12 @@ else if (text == '3*1') {
     // const phone = req.body.phone;
   }
   else if (text == '3*1*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '3*1*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear Dear customer Thank you for booking with us`
 
     res.send(response)
   }
@@ -404,8 +369,7 @@ else if (text == '3*1') {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -418,16 +382,12 @@ else if (text == '3*1') {
     // const phone = req.body.phone;
   }
   else if (text == '3*2*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '3*2*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
@@ -436,8 +396,7 @@ else if (text == '3*1') {
     // Business logic for first level response
     // let accountNumber = 'ACC1001'
     // This is a terminal request. Note how we start the response with END
-    let response = `END Dear customer Your MoMo payment OF V-VIP is being processed
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     // const readline = require('readline-sync');
 
@@ -450,16 +409,12 @@ else if (text == '3*1') {
     // const phone = req.body.phone;
   }
   else if (text == '3*3*2') {
-    let response = `END Dear customer Your aitel/tigo cash payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
   else if (text == '3*3*3') {
-    let response = `END Dear customer Your BANK payment is being processed
-
-    THANKS`
+    let response = `END Dear customer Thank you for booking with us`
 
     res.send(response)
   }
